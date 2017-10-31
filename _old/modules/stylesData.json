@@ -1,0 +1,13 @@
+{
+  "treeGridHeight": "100%",
+  "treeGridWidth": "100%",
+  "treeGridPosLeft": "0",
+  "treeGridPosTop": "0",
+  "treeGridHeaderShow": true,
+  "treeGridHeaderMenu": true,
+  "treeGridHeaderBg": "#003300",
+  "treeGridFolderIcon": "icons/arrow-down-sign-to-navigate.png",
+  "treeGridNodeIcon": "icons/arrow-down-sign-to-navigate.png",
+  "treeGridBodyBg": "#212121",
+  "treeGridBodyColor": "#e0e0e0"
+}

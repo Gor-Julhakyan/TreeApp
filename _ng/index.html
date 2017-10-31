@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="treeConfigurator">
+<head>
+	<meta charset="UTF-8">
+	<title>Tree Configurator</title>
+	<!-- Setup Isomorphic SmartClient-->
+	<script>var isomorphicDir = "lib/isomorphic/";</script>
+	<script src="lib/isomorphic/system/modules/ISC_Core.js"></script>
+	<script src="lib/isomorphic/system/modules/ISC_Foundation.js"></script>
+	<script src="lib/isomorphic/system/modules/ISC_Containers.js"></script>
+	<script src="lib/isomorphic/system/modules/ISC_Grids.js"></script>
+	<script src="lib/isomorphic/system/modules/ISC_Forms.js"></script>
+	<script src="lib/isomorphic/system/modules/ISC_DataBinding.js"></script>
+	<script src="lib/isomorphic/system/modules/ISC_RichTextEditor.js"></script>
+	<script src="lib/isomorphic/skins/SmartClient/load_skin.js"></script>
+	<!-- Load AngularJS -->
+	<!--script src="node_modules/angular/angular.min.js"></script-->
+</head>
+<body>
+	<script>
+		isc.Page.setAppImgDir("./graphics/");
+	</script>
+
+	<div class="treeCntr">
+		aslkfjasf
+		<TreeGrid dataSource="countryDS" autoFetchData="true" ID="TreeGrid1" autoDraw="false">
+    <fields>
+        <TreeGridField name="TreeGridField0" title="TreeGridField0"/>
+        <TreeGridField type="text" name="countryCode" title="Code"/>
+        <TreeGridField type="text" name="countryName" title="Country"/>
+        <TreeGridField type="text" name="capital" title="Capital"/>
+        <TreeGridField type="text" name="government" title="Government"/>
+        <TreeGridField type="boolean" name="member_g8" title="G8"/>
+        <TreeGridField type="text" name="continent" title="Continent"/>
+        <TreeGridField type="date" name="independence" title="Nationhood"/>
+        <TreeGridField type="float" name="area" title="Area (km&amp;sup2;)"/>
+        <TreeGridField type="integer" name="population" title="Population"/>
+        <TreeGridField type="float" name="gdp" title="GDP"/>
+        <TreeGridField type="link" name="article" title="Info"/>
+    </fields>
+    <folderClick>
+            <Action>
+                <target>TreeGrid1</target>
+                <name>hide</name>
+            </Action>
+    </folderClick>
+</TreeGrid>
+	</div>
+</body>
+</html>

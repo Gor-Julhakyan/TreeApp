@@ -8,21 +8,16 @@
     <SCRIPT>
     isc.Page.setAppImgDir("./graphics/");
 
-    console.log(localStorage.foo);
 
-
-        ID="leftMenu"
-
-        ID="countryTree"
 
     </SCRIPT>
-
-    <script src="./vendor/jquery-3.2.1.min.js"></script>
-    <script src="./skins/classes.js"></script>
-    <script src="./countryTree.js"></script>
-    <script src="./modules/menu.js"></script>
-    <script src="./configurator/forms/fonts.js"></script>
-    <script src="./configurator/forms/controls.js"></script>
-    <script src="./configurator.js"></script>
+    <script src="./scripts/vendor/jquery-3.2.1.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/classes.js"></script>
+    <script src="./scripts/countryTree.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/forms/fonts.js"></script>
+    <script src="./scripts/forms/controls.js"></script>
+    <script src="./scripts/configurator.js"></script>
   </BODY>
 </HTML>

@@ -1,0 +1,37 @@
+
+<Project>
+    <screens constructor="Tree">
+        <root>
+            <children>
+                <ScreenNode>
+                    <mockupMode>false</mockupMode>
+                    <fileName>geo.ui.xml</fileName>
+                    <isCurrent>true</isCurrent>
+                    <isFolder>false</isFolder>
+                    <title>geo.ui.xml</title>
+                </ScreenNode>
+            </children>
+            <isFolder>true</isFolder>
+            <name>/</name>
+            <id></id>
+        </root>
+        <rootValue></rootValue>
+        <idField>id</idField>
+        <parentIdField>parentId</parentIdField>
+        <parentProperty>_parent_</parentProperty>
+        <openProperty>_isOpen_</openProperty>
+    </screens>
+    <currentScreenFileName>geo.ui.xml</currentScreenFileName>
+    <datasources>
+        <loadID>continentSQL</loadID>
+        <Record>
+            <dsName>continentSQL</dsName>
+            <dsType>sql</dsType>
+        </Record>
+        <Record>
+            <dsName>countryDS</dsName>
+            <dsType>sql</dsType>
+        </Record>
+    </datasources>
+
+</Project>

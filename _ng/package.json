@@ -1,0 +1,25 @@
+{
+  "name": "treeconfigurator",
+  "version": "1.0.0",
+  "description": "Data tree view configurator",
+  "main": "index.html",
+
+  "scripts": {
+    "start": "",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/Gor-Julhakyan/TreeApp.git"
+  },
+  "keywords": [
+    "IsomorphicJS",
+    "SmartClient",
+    "TreeView"
+  ],
+  "author": "Gor Julhakyan",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6"
+  }
+}

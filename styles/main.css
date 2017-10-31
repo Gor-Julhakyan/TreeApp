@@ -49,9 +49,14 @@
 }
 
 
-/*.countryTree {
-  background: #333333;
-}*/
+.countryTree {
+  font-size: 16px !important;
+}
+
+.countryTreeOver {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
 
 .configBody {
   max-width: 550px;
